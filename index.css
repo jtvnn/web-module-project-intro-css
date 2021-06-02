@@ -1,0 +1,73 @@
+* {
+    box-sizing:border-box; /*respect the width I've given you, if I add padding or margin apply it within the given width no in addition to it*/
+    padding:0;
+    margin:0;
+    max-width:100%; /*you can never be bigger than you parent*/
+    /* border:1px solid grey; */
+}
+
+/*General Styles*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color:#4F4F4F;
+}
+
+a {
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+section {
+    padding: 4% 0;
+}
+
+/* Header Styles */
+
+
+nav{
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    width: 5.5%;
+    margin: 1%;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.button1{
+    background-color: #FF764E; 
+}
+
+.button2{
+    background-color: #5ED3EB;
+}
+
+.button3{
+    background-color: #FFCD69;
+}
+
+/*Top Section Styles*/
+
+.img1{
+    width: 12%;
+    border-radius: 50%;
+}
+
+
+.text1{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+.main{
+    background-color: #DDB9A3;
+}
+
