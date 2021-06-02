@@ -41,7 +41,7 @@ blockquote, q {
     padding:0;
     margin:0;
     max-width:100%; /*you can never be bigger than you parent*/
-    /* border:1px solid grey; */
+    /*border:1px solid grey;*/
 }
 
 /*General Styles*/
@@ -99,30 +99,6 @@ nav a{
     margin-right: 10%;
 }
 
-/* nav{
-    text-align: center;
-} */
-
-/* button{
-    display: inline-block;
-    width: 5.5%;
-    margin: 1%;
-    border-radius: 15px;
-    text-align: center;
-} */
-
-/* .button1{
-    background-color: #FF764E; 
-} */
-
-/* .button2{
-    background-color: #5ED3EB;
-} */
-
-/* .button3{
-    background-color: #FFCD69;
-} */
-
 /*Top Section Styles*/
 
 .top{
@@ -142,14 +118,16 @@ nav a{
 }
 
 .right{
+    font-family: 'Roboto Mono', monospace;
     width: 45%;
     position: absolute;
-    top: 20%;
+    top: 5%;
     text-align: center;
 }
 
 /*Middle Section Styles*/
 .main{
+    font-family: 'Roboto Mono', monospace;
     background-color: #DDB9A3;
     color: #fff;
     padding: 1%;
@@ -162,7 +140,6 @@ nav a{
     width: 10%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .truck img{
@@ -172,19 +149,25 @@ nav a{
     margin-right: auto;
 }
 .campfire p{
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
     display: block;
-    width: 30%;
+    width: 24%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .truck p{
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
     display: block;
-    width: 30%;
+    width: 24%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 /*Footer Section Styles*/
@@ -194,8 +177,10 @@ nav a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+}
 
-
+.foot{
+    background-color: #F9E7DC;
 }
 
 
