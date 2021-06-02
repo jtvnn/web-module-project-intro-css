@@ -128,7 +128,7 @@ nav a{
 .top{
     position: relative;
 }
-img{
+.left img{
     border-radius: 50%;
     width: 42%;
 }
@@ -144,11 +144,50 @@ img{
 .right{
     width: 45%;
     position: absolute;
-    top: 40%;
+    top: 20%;
     text-align: center;
 }
 
-/*Background Image Section?*/
+/*Middle Section Styles*/
+.main{
+    background-color: #DDB9A3;
+    color: #fff;
+    padding: 1%;
+    margin: 3%;
+}
+
+/*Bottom Section Styles*/
+.campfire img{
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.truck img{
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.campfire p{
+    text-align: center;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.truck p{
+    text-align: center;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer Section Styles*/
 .heroImg{
     height: 40vh;
     background-image: url('assets/footer_img.jpg');
@@ -161,9 +200,4 @@ img{
 
 
 
-
-
-.main{
-    background-color: #DDB9A3;
-}
 
